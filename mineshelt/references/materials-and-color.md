@@ -1,5 +1,7 @@
 # Materials, colors and weathering
 
+For **hands-on palette board construction, annotated candidate block families, directional gradients and hard material critiques**, read [block-palette-workshop.md](block-palette-workshop.md). Palette selection is a major building phase, not a final decoration step.
+
 A credible palette is an architectural system: blocks are chosen because of **local availability, building technology, weather, hierarchy and age**. Texture noise is not equivalent to visual complexity.
 
 ## The five material roles

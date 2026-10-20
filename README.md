@@ -8,6 +8,10 @@ MineShelt is an [Agent Skill](https://agentskills.io/specification), not a proce
 ## Что умеет
 
 - Проектировать постройки под биом, историю места, эпоху, стиль и техническое задание.
+- **Реально подбирать и испытывать палитры блоков:** тестовые стенды, роли материалов, направленные градиенты, работа с текстурами и состояниями блоков.
+- **Профессионально формировать рельеф:** холмы, скалы, слои пород, осыпи, реки, берега, террасы, экологичные переходы и маршруты.
+- **Проектировать авторские деревья и посадки:** стволы, ветви, кроны, корни, подлесок и природные группы.
+- Изучать изображения работ других строителей, выделять архитектурные принципы и адаптировать их, сохраняя атрибуцию.
 - Мыслить силуэтом и архитектурной массой, а не начинать с хаотичного декора.
 - Подбирать взаимосвязанные палитры материалов и осмысленно распределять износ.
 - Проектировать крыши, фасады, фундамент, входы, окна, интерьеры, окружение.
@@ -59,8 +63,11 @@ Copy-Item -Recurse -Force C:\path\to\MineShelt\mineshelt .agents\skills\mineshel
 ## Состав
 
 - [mineshelt/SKILL.md](mineshelt/SKILL.md) — основной контракт, процесс и правила действий агента.
-- [mineshelt/references/](mineshelt/references/) — архитектура, пропорции, палитры, интерьеры, интеграция в Minecraft и ревизия.
-- [mineshelt/examples/](mineshelt/examples/) — разборы оригинальных проектов и образцы решений, **не шаблоны для копирования**.
+- [mineshelt/references/](mineshelt/references/) — архитектура, пропорции, палитры, интерьеры, терраформинг, деревья, визуальные референсы, интеграция в Minecraft и ревизия.
+- [mineshelt/references/block-palette-workshop.md](mineshelt/references/block-palette-workshop.md) — палитры, пробы блоков, градиенты и борьба с визуальным шумом.
+- [mineshelt/references/terrain-sculpting-masterclass.md](mineshelt/references/terrain-sculpting-masterclass.md) — ручное проектирование рельефа, скал и водоёмов.
+- [mineshelt/references/reference-study-and-image-analysis.md](mineshelt/references/reference-study-and-image-analysis.md) — подбор визуальных источников и указание авторства.
+- [mineshelt/examples/](mineshelt/examples/) — разборы кузницы, гавани со скалой и исправления неудачной палитры, **не шаблоны для копирования**.
 - [tests/scenarios.md](tests/scenarios.md) — набор оценочных сценариев, включая отрицательные.
 - [AGENTS.md](AGENTS.md) — правила поддержки проекта.
 

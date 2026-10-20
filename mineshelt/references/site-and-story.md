@@ -1,5 +1,7 @@
 # Site, biome, story and settlements
 
+For detailed macro-to-micro landform sculpting, cliff geology, erosion, river banks, authored terrain gradients and vegetation, read [terrain-sculpting-masterclass.md](terrain-sculpting-masterclass.md) and [vegetation-and-custom-trees.md](vegetation-and-custom-trees.md).
+
 A professional builder makes terrain and building read as **one composition**. Architectural style is not only the roof: it is where people approach, how water drains, how materials arrive and what changes over time.
 
 ## Site reconnaissance

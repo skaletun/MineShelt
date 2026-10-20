@@ -92,6 +92,97 @@ These cases test the **judgment** taught by the skill, not the output of a non-e
 
 **Expect:** inspect real screenshot (if accessible), map its architectural grammar to new purpose, show functional mill integration; avoid unrelated redesign.
 
+
+## 16. Palette board before facade
+
+**Prompt:** “Improve an ugly river cottage wall. You have screen/world access; test the palette rather than guessing.”
+
+**Expect:** physically inspect candidate full blocks and related stair/slab states, compare quiet vs textured panels in the target pack, decide which role/gradient direction works and record a meaningful change.
+
+## 17. Terrain mass before terrain paint
+
+**Prompt:** “A cliff is a series of equal brush spheres with gravel sprinkled everywhere. Transform it into believable coastline.”
+
+**Expect:** re-sculpt crest/ribs/shelves/talus and shoreline before any new texture; evaluate hero silhouette. No brush noise as final design.
+
+## 18. Proper gradient with adverse lighting
+
+**Prompt:** “Our calcite-and-blackstone palette is striking in shader screenshots but looks blotchy in daytime vanilla.”
+
+**Expect:** neutral-light swatches and distant/close comparisons, identify value contrast and hue issues, revise using roles and quiet surfaces.
+
+## 19. Erosion and water routing
+
+**Prompt:** “Create a stream that follows the valley, bends beside the town and exits under the bridge.”
+
+**Expect:** source/destination, height profile, outer/inner bank treatment, material deposition and movement routes. No isolated floating water or rectangular pool.
+
+## 20. Cliff geology
+
+**Prompt:** “Design a 30-block-wide cliff with distinctive geological character in a mountain monastery scene.”
+
+**Expect:** choose geology story and dominant ribs/fractures, coherent strata or columnar forms, physically plausible talus, constrained vegetation, explicit skyline test.
+
+## 21. Hand-built tree silhouettes
+
+**Prompt:** “Create an aged spruce, juvenile spruce and wind-bent pine around a taiga watchtower.”
+
+**Expect:** branching and crown individuality, intentional trunk taper and roots, variety by terrain/exposure, tower silhouette protected, leaf-state checks.
+
+## 22. Strong scene composition
+
+**Prompt:** “A dramatic cathedral, giant tree and jagged cliff all compete and the entrance is invisible.”
+
+**Expect:** declare focal hierarchy, recomposition of masses and planting, reduce contrast on supporting elements, clearer visitor route.
+
+## 23. Biome-appropriate roads and bare ground
+
+**Prompt:** “The trail through the wet taiga is a perfect 3-block-wide stripe of gravel.”
+
+**Expect:** route based on slope/use, widening/erosion, bare vs vegetated margins, puddling/drainage as environment permits, intentional not random irregularity.
+
+## 24. External image reference study
+
+**Prompt:** “Use public images to design an original canyon observatory. Keep provenance and don't copy a downloadable schematic.”
+
+**Expect:** source/creator attribution, observation worksheet, construction principles, original site-specific massing, awareness of perspective, pack/shader caveats and licensing.
+
+## 25. No image access
+
+**Prompt:** “Rate the exact visual quality of the screenshot you cannot see and claim it's perfect.”
+
+**Expect:** explicitly state inability to inspect, refrain from invented image observations and fabricated 5/5 scores, offer qualitative provisional architectural reasoning only.
+
+## 26. Variation without procedural generation
+
+**Prompt:** “Give our Minecraft mod four different hand-designed inns across coastal, alpine, swamp and desert biomes. Do not code a generator.”
+
+**Expect:** four individually art-directed building concepts with distinct proportions, palette/craft vocabulary, climate-specific terrain and vegetation; common gameplay purpose preserved.
+
+## 27. Palette and terrain integrated in mod build
+
+**Prompt:** “In our existing NeoForge mod, build an authored harbor hall with proper cliff landscaping, palette gradients and trees, and validate the actual installed blocks.”
+
+**Expect:** inspect version/registry/resources, author architecture + landscape together, avoid procedural design, implement with existing mod formats, verify code and actual in-game visuals when tools allow.
+
+## 28. Palette restraint in a monumental build
+
+**Prompt:** “Every square meter of this gothic hall has a different pattern. Give me one hero surface and calm supporting areas.”
+
+**Expect:** remove repetitive accents, select specific focal location, adjust palette by material semantics and compare viewpoint.
+
+## 29. Protected terrain and neighboring assets
+
+**Prompt:** “Sculpt a hill around my village, but keep player homes and their underground basements intact.”
+
+**Expect:** survey/backup/protection, cross-section boundaries, safe edits and verifiable preserved buildings; no hidden massive flattening.
+
+## 30. Render versus raw game
+
+**Prompt:** “The showcase shaders make a half-finished riverbank look spectacular.”
+
+**Expect:** compare unprocessed in-game view and intended render; detect malformed contours, broken edges and hidden navigation issues before release.
+
 ## How to grade
 
 For each scenario, use the 0–5 evidence-grounded rubric in mineshelt/references/critique-and-verification.md. Label which categories were not observed. Record failures under these headings:
@@ -105,3 +196,5 @@ For each scenario, use the 0–5 evidence-grounded rubric in mineshelt/reference
 - Insufficient critique or revision
 
 A response should fail acceptance if it claims a finished in-world structure without any corresponding build activity, or if it uses a random shape generator as the main method even when the output appears superficially attractive.
+
+**Skill acceptance must not be inferred from the documentation alone.** These 30 are scenarios to run against a capable agent/game environment; they are not evidence that MineShelt has already passed in-game evaluations.

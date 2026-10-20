@@ -29,7 +29,15 @@ Inspect available context. Determine:
 4. **Protection**: structures not to overwrite, terrain that must remain, player edits and existing saves.
 5. **Art direction**: one sentence conveying the building's role, local building culture, condition and feeling.
 
-Inspect the project or world instead of inventing data. If the user has omitted a nonessential detail, choose a well-reasoned default and document it; ask only when a missing fact prevents safe construction. Follow the user's scope and style, not your personal favorite genre.
+Inspect the project or world instead of inventing data. If the user has omitted a nonessential detail, choose a well-reasoned default and document it; ask only when a missing fact prevents safe construction. Follow the user's scope and style, not your personal favorite genre. **If sources/images are available, examine credible build and natural landscape references before art direction.** Record visible geometry, palette logic, limitations and attribution; do not claim hidden geometry is visible.
+
+## Mandatory human-builder capabilities
+
+- **Palette craft:** test and curate real block combinations; paint intentional gradients/patches based on water, light, age, structure and scale. Read [block-palette-workshop.md](references/block-palette-workshop.md) before any significant palette or facade texturing task.
+- **Terrain sculpting:** design existing/new hills, stone cliffs, rivers, shores, terraces, paths and geological transitions as coherent landforms. Read [terrain-sculpting-masterclass.md](references/terrain-sculpting-masterclass.md) for any landscape/terrain commission or nontrivial building site.
+- **Vegetation:** author species-specific tree silhouettes, trunks, branches, crowns, roots and planting clusters; never cover everything with random foliage. Read [vegetation-and-custom-trees.md](references/vegetation-and-custom-trees.md) when landscaping includes trees or planting.
+- **Visual literacy:** find and analyze real reference screenshots/images when search is available and helpful; document artist attribution and extract design principles rather than copying assets. Read [reference-study-and-image-analysis.md](references/reference-study-and-image-analysis.md).
+- **Apprenticeship loop:** observe → choose → swatch/sketch → build → step away → critique → rework. Read [human-builder-practice-loop.md](references/human-builder-practice-loop.md) when the brief calls for professional human-like quality or broad art direction.
 
 ## Practice loop — complete every phase
 
@@ -41,13 +49,16 @@ Read [site-and-story.md](references/site-and-story.md) and [architectural-archet
 ### 2. Draw the footprint and establish architectural masses
 Set block-space dimensions, datum/ground floor, entrances, circulation and site contact. Develop **primary mass, secondary volumes, roof silhouette and one dominant focal point** before placing decoration. Read [form-and-proportion.md](references/form-and-proportion.md). Check how the build reads at medium and long distance. Prefer 2–4 legible masses over 15 tiny unrelated protrusions. Let asymmetry emerge from function and terrain rather than jittering walls.
 
-### 3. Create a restrained material system
-Identify **structural**, **wall**, **roof**, **trim**, and **accent** materials with a role for each. Match climatic exposure and construction logic. Confirm actual block IDs and states against the target version/registry before placement. Use no block simply to add visual noise. Read [materials-and-color.md](references/materials-and-color.md).
+### 3. Run a block palette workshop
+Identify **structural**, **wall**, **roof**, **trim**, **accent**, and **terrain** material roles. Verify actual block IDs, block states, available variations and resource pack against the target. Build/inspect swatches or sample panels when tools allow; compare quiet vs textured surfaces at real viewing distances. Select directional gradients and local weathering only where there is a physical or visual rationale. Explicitly reject “block vomit”, checkerboard noise and competing gradients on every surface. Read [block-palette-workshop.md](references/block-palette-workshop.md) and [materials-and-color.md](references/materials-and-color.md).
 
-### 4. Resolve the construction, not just the exterior
+### 4. Sculpt the land with authored geographic intent
+Before finalizing a building foundation, plan terrain relief and interfaces: ridge/valley silhouette, water routes, cut-and-fill profiles, cliff spines and talus, soil transitions and ground paths. For hills, cliffs, rivers, ponds or terraced sites, use **macro → meso → micro** phases. Draw/record terrain cross-sections and preserve existing landscape; create palette zones by slope, wetness and use, not random block percentages. Hand-design tree trunks, branch structures, canopy and root placement. Read [terrain-sculpting-masterclass.md](references/terrain-sculpting-masterclass.md) and [vegetation-and-custom-trees.md](references/vegetation-and-custom-trees.md).
+
+### 5. Resolve the construction, not just the exterior
 Make the load path believable: foundation supports walls/columns; walls or posts carry the roof; overhangs have visible reasoning. Define roof geometry, stair/slab orientation, transitions, joints, openings, sill/lintel behavior and accessible entry. Model windows and doors where occupants need them, not at blind equal intervals. Read [roofs-and-facades.md](references/roofs-and-facades.md) and [interiors-and-gameplay.md](references/interiors-and-gameplay.md).
 
-### 5. Build the authored structure
+### 6. Build the authored structure
 Execute in deliberate passes:
 1. Mark limits and preserve terrain/nearby builds.
 2. Grade minimally; make stepped or retaining foundations.
@@ -60,18 +71,21 @@ Execute in deliberate passes:
 
 The construction channel varies. Read [implementation-in-mods.md](references/implementation-in-mods.md) for mod repositories, authored structure assets or worldgen; read [build-artifacts.md](references/build-artifacts.md) for deliverables. **Never claim a build exists if you only wrote a description.**
 
-### 6. Inspect, critique, revise
-Review real screenshots or in-world views where tools allow: hero view, front, back, left, right, high three-quarter, ground-level approach, interior and night. Diagnose *silhouette first*, then roof, openings, material rhythm, joints, terrain integration and clutter. Revise at least one concrete deficiency if any is visible; loop until major flaws are addressed.
+### 7. Inspect, critique, revise
+Review real screenshots or in-world views where tools allow: hero view, front, back, left, right, high three-quarter, ground-level approach, interior and night. Diagnose *landform and building silhouette first*, then geology/terrain transitions, roof, openings, material gradients, planting ecology, joints and clutter. Review raw/neutral game rendering as well as intended shaders when possible. Revise at least one concrete deficiency if any is visible; loop until major flaws are addressed.
 
 Apply [critique-and-verification.md](references/critique-and-verification.md). Static code checks cannot prove architectural beauty, and invented image observations are forbidden.
 
-### 7. Deliver with evidence
+### 8. Deliver with evidence
 Report: design intent; actual artifact/files or exact in-world location; compatible Minecraft environment; verified build/run/visual checks; intentionally unresolved issues; and before/after revisions. Use **built and inspected**, **implemented but visually unverified**, **authored blueprint only**, or **design proposal only** accurately.
 
 ## Hard aesthetic rules
 
 - **Silhouette beats detailing.** If the distant profile is generic, do not cover it in trapdoors.
+- **Materials as brushstrokes, not confetti.** Palette gradients must respect direction, scale and cause; leaving quiet surfaces intact is a deliberate design skill.
 - **Fewer materials, better roles.** Contrasting texture ≠ visually coherent architecture.
+- **Terrain silhouette before terrain texture.** Sculpt ridges, cliffs, slopes, watercourses and terraces deliberately before gravel, soil and moss passes.
+- **Plants have architecture too.** Trees need recognizable trunk/branch/crown form and ecologically grounded placement.
 - **Human-like ≠ random mess.** Design believable choices, age, repair, use, maintenance and regional variation.
 - **Scale serves gameplay.** A spectacular roof with an unusable interior is an unfinished build unless the brief expressly excludes an interior.
 - **Terrain is architecture.** Floating bases, unnatural square cuts, disconnected paths and unaddressed waterlines are major defects.
@@ -95,6 +109,11 @@ Report: design intent; actual artifact/files or exact in-world location; compati
 | --- | --- |
 | Scale, silhouette, shape, visual hierarchy | [form-and-proportion.md](references/form-and-proportion.md) |
 | Block palettes, texture, aging, modded material selection | [materials-and-color.md](references/materials-and-color.md) |
+| Detailed swatches, palette families, gradients, block-state and texture craft | [block-palette-workshop.md](references/block-palette-workshop.md) |
+| Cliffs, geologic strata, valleys, rivers, grading and authored terraforming | [terrain-sculpting-masterclass.md](references/terrain-sculpting-masterclass.md) |
+| Species-aware custom trees, roots, branches, planting and groundcover | [vegetation-and-custom-trees.md](references/vegetation-and-custom-trees.md) |
+| Studying web images, screenshots, technical and community references | [reference-study-and-image-analysis.md](references/reference-study-and-image-analysis.md) |
+| Human builder work cycle, exercises and deliberate creative revisions | [human-builder-practice-loop.md](references/human-builder-practice-loop.md) |
 | Roofs, facade rhythms and structural detail | [roofs-and-facades.md](references/roofs-and-facades.md) |
 | Site, biome, story, settlements and paths | [site-and-story.md](references/site-and-story.md) |
 | Interior, occupancy and playable spaces | [interiors-and-gameplay.md](references/interiors-and-gameplay.md) |
@@ -103,7 +122,7 @@ Report: design intent; actual artifact/files or exact in-world location; compati
 | Artifact specification, coordinate clarity | [build-artifacts.md](references/build-artifacts.md) |
 | Quality scoring, rework and proof | [critique-and-verification.md](references/critique-and-verification.md) |
 
-Study [the worked commission](examples/taiga-forge-commission.md) for reasoning quality, never as a reusable preset.
+Study [the taiga forge](examples/taiga-forge-commission.md), [cliffside harbor](examples/cliffside-harbor-commission.md) and [palette critique](examples/palette-critique-exercise.md) for reasoning quality, never as reusable presets.
 
 ## Failure responses
 
@@ -115,5 +134,8 @@ Study [the worked commission](examples/taiga-forge-commission.md) for reasoning 
 - **Pretty outside, broken inside** → repair doorway collision, stairs, light, usable depth, furnishing and navigation.
 - **Works in code but visually bad** → treat it as unfinished; obtain and critique screenshots if accessible.
 - **No placement access** → deliver exact design instructions and disclose that no build was executed.
+- **Monochrome flat terrain** → repair broad topography and bank/edge geometry before decorating the surface.
+- **“Block vomit” gradient** → repaint with a tested role palette and directionally meaningful clustered transitions.
+- **Generic vegetation** → rework trunk taper, branching, foliage silhouette, local soil and view corridors.
 
 **Stop condition:** The specific user brief is met; functionality and construction are demonstrable to the extent allowed by tools; visible flaws have been revised; unverified claims are not presented as facts.

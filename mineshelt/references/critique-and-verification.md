@@ -11,6 +11,10 @@ A serious Minecraft build undergoes design review. Avoid empty praise, invented 
 5. **Gameplay/interior**: routes and clearances functional; rooms serve purpose?
 6. **Site composition**: approaches, landscape, drainage, paths and surrounding structures linked?
 7. **Finish quality**: orientation errors, holes, floating items, awkward clipping, lighting, clutter and repeated patterns?
+8. **Professional palette craft**: have actual swatches been evaluated, and do terrain/wall gradients have direction, material roles and quiet zones?
+9. **Terraforming craft**: are major ridge profiles, cliff spines, bank transitions, paths and planted tree silhouettes authored with ecological/geological logic rather than noise?
+
+For palette or terrain-heavy commissions, expand the rubric with separately evidenced **palette craft, terrain geometry and vegetation craft** dimensions; do not disguise failures in those dimensions by scoring an unrelated roof or interior as excellent.
 
 Never start with lantern density or pot placement while a roof or foundation is wrong.
 

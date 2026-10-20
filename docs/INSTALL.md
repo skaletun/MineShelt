@@ -46,7 +46,7 @@ An agent can realize a building only through tools it genuinely has: source-cont
 - target site/biome, dimensions, protected area, expected visual references;
 - test/screenshot capabilities.
 
-If gameplay access is unavailable, request a **build-ready authored specification**, not fictional evidence of construction.
+If gameplay access is unavailable, request a **build-ready authored specification**, not fictional evidence of construction. For expert palette/landscape work, make screenshot access, Minecraft version, resource packs and terrain coordinates available where possible. References from external builders can be researched through browser/image search, but the skill does not ship redistributed copyrighted images or other builders' schematic assets.
 
 ## 4. Invoke
 
