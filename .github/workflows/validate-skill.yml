@@ -1,0 +1,22 @@
+name: Validate MineShelt
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  static-skill-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile validation utility
+        run: python -m py_compile tools/check_skill.py
+      - name: Validate skill and relative links
+        run: python tools/check_skill.py
