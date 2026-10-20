@@ -5,7 +5,7 @@ license: MIT
 compatibility: Agent Skills-compatible agents. In-world work requires actual Minecraft/world-edit access; mod implementation requires repository access. No tools or Minecraft versions are assumed.
 metadata:
   author: MineShelt contributors
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # MineShelt — professional Minecraft building craft

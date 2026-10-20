@@ -79,9 +79,43 @@ def check_markdown_links(errors: list[str]) -> int:
     return inspected
 
 
+def check_curriculum(errors: list[str]) -> None:
+    """Check the core curriculum can't be accidentally detached from SKILL.md."""
+    if not SKILL.is_file():
+        return
+    body = SKILL.read_text(encoding="utf-8")
+    required = (
+        "references/block-palette-workshop.md",
+        "references/terrain-sculpting-masterclass.md",
+        "references/vegetation-and-custom-trees.md",
+        "references/reference-study-and-image-analysis.md",
+        "references/human-builder-practice-loop.md",
+    )
+    for relative in required:
+        if relative not in body:
+            errors.append(f"Missing curriculum link in SKILL.md: {relative}")
+        if not (SKILL.parent / relative).is_file():
+            errors.append(f"Required curriculum document missing: {relative}")
+
+    scenarios = ROOT / "tests" / "scenarios.md"
+    if not scenarios.is_file():
+        errors.append("Missing tests/scenarios.md")
+    else:
+        count = len(re.findall(
+            r"^##\s+\d+\.", scenarios.read_text(encoding="utf-8"), re.MULTILINE
+        ))
+        if count < 30:
+            errors.append(f"Only {count} behavioral scenarios, expected at least 30")
+
+    review = ROOT / "tests" / "review-sheet.md"
+    if not review.is_file():
+        errors.append("Missing tests/review-sheet.md")
+
+
 def main() -> int:
     errors: list[str] = []
     check_frontmatter(errors)
+    check_curriculum(errors)
     inspected = check_markdown_links(errors)
     if errors:
         for item in errors:

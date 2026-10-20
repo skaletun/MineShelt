@@ -1,5 +1,7 @@
 # MineShelt
 
+**Version: 1.1.0** — профессиональные палитры, терраформинг, деревья и визуальный разбор строительных работ.
+
 **Architectural craft for AI agents building in Minecraft.**  
 **MineShelt — навык ИИ-архитектора и профессионального Minecraft-билдера.**
 
@@ -54,7 +56,7 @@ Copy-Item -Recurse -Force C:\path\to\MineShelt\mineshelt .agents\skills\mineshel
 
 Установка инструкции — не установка Minecraft, NeoForge, Fabric, WorldEdit или права записи в мир. Для реального строительства у агента должны быть инструменты, доступ к репозиторию или игровому окружению.
 
-Подробнее: [docs/INSTALL.md](docs/INSTALL.md).
+Подробнее: [docs/INSTALL.md](docs/INSTALL.md), [docs/USE.md](docs/USE.md) и [CHANGELOG.md](CHANGELOG.md).
 
 ## Пример вызова
 
@@ -70,6 +72,7 @@ Copy-Item -Recurse -Force C:\path\to\MineShelt\mineshelt .agents\skills\mineshel
 - [mineshelt/examples/](mineshelt/examples/) — разборы кузницы, гавани со скалой и исправления неудачной палитры, **не шаблоны для копирования**.
 - [tests/scenarios.md](tests/scenarios.md) — набор оценочных сценариев, включая отрицательные.
 - [AGENTS.md](AGENTS.md) — правила поддержки проекта.
+- [tests/review-sheet.md](tests/review-sheet.md) — форма оценки результата по реальным игровым изображениям.
 
 ## Главное правило
 

@@ -8,7 +8,7 @@ This repository is an instructional Agent Skill, not Minecraft mod source code a
 4. When describing mod integration, avoid fabricated API calls and broad promises across incompatible loaders/versions. Inspect the actual repository and mappings.
 5. Examples must explain *why* each decision exists. Refrain from reusing a single fixed house geometry for every biome.
 6. Keep heavy subject matter in mineshelt/references/ and keep the core SKILL.md concise and imperative.
-7. Amend tests/scenarios.md whenever behavior expectations change. Evaluate qualitative outputs using references/critique-and-verification.md.
+7. Amend tests/scenarios.md whenever behavior expectations change. Evaluate qualitative outputs using mineshelt/references/critique-and-verification.md and tests/review-sheet.md. Treat no runtime access as UNVERIFIED, not PASS.
 8. Respect original saves, player structures, spawn logic, performance requirements, world protection, and project license. Do not commit third-party builder images/structures without redistribution permission; prefer properly attributed reference URLs.
 9. Prefer practical build evidence and revisions over inflated self-assigned quality scores.
 
