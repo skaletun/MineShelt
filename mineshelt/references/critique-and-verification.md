@@ -6,6 +6,7 @@ A serious Minecraft build undergoes design review. Avoid empty praise, invented 
 
 1. **Purpose and identity**: can a viewer infer what the building is, and does it honor the brief?
 2. **Silhouette and primary proportions**: readable at distance; strong profile and hierarchy?
+2a. **Actual building relief**: real projected/recessed geometry, depth of sections, framed openings, supported undercuts and fully resolved side/rear elevations?
 3. **Construction plausibility**: roof-to-wall joints, supports, entrances, terrain contact and extensions coherent?
 4. **Material language**: coherent palette and restrained accents, convincing age?
 5. **Gameplay/interior**: routes and clearances functional; rooms serve purpose?
@@ -14,7 +15,7 @@ A serious Minecraft build undergoes design review. Avoid empty praise, invented 
 8. **Professional palette craft**: have actual swatches been evaluated, and do terrain/wall gradients have direction, material roles and quiet zones?
 9. **Terraforming craft**: are major ridge profiles, cliff spines, bank transitions, paths and planted tree silhouettes authored with ecological/geological logic rather than noise?
 
-For palette or terrain-heavy commissions, expand the rubric with separately evidenced **palette craft, terrain geometry and vegetation craft** dimensions; do not disguise failures in those dimensions by scoring an unrelated roof or interior as excellent.
+For building-heavy commissions, separately assess **volumetric depth, wall-section geometry, actual shadows, supported projections, complete side/rear elevations, and interior clearances**. For palette or terrain-heavy commissions, expand the rubric with separately evidenced **palette craft, terrain geometry and vegetation craft** dimensions; do not disguise failures in those dimensions by scoring an unrelated roof or interior as excellent.
 
 Never start with lantern density or pot placement while a roof or foundation is wrong.
 
@@ -38,6 +39,8 @@ If 360-degree screenshots are unavailable, state exactly what was inspected.
 | Observable defect | Likely root cause | Corrective action |
 | --- | --- | --- |
 | Looks like a box with add-ons | weak volumes and section | redesign dominant roof, secondary mass and door relationship |
+| Flat rear/side and only decorated front | no authored wall section or genuine relief | redesign elevations/section, inset openings and structural volumes; inspect both 45° corners |
+| Bay or balcony floats, interior blocked | relief lacks load path and clearance budget | change section/supports or remove mass; verify underside and usable passage |
 | Jagged random facade | texture noise | simplify palette, align structural bays, localize weathering |
 | Roof is taller than all usable rooms | massing not tied to program | reconsider span, pitch, attic use, eave height |
 | Floating porch / clipped foundation | landscape ignored | design actual load path and stepped support |

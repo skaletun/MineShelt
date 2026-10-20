@@ -2,6 +2,8 @@
 
 When designing wall/roof gradients or textured trims, use the physical swatch process in [block-palette-workshop.md](block-palette-workshop.md) and verify that construction surfaces remain readable.
 
+The three-dimensional geometry of roofs and walls — soffits, projecting/recessed bays, supported eaves, genuine window reveals and structural depth — is covered in [architectural-depth-and-relief.md](architectural-depth-and-relief.md).
+
 Roofs are often the largest visible surface in Minecraft. They determine the building's era, climate response, height and visual identity. Designing a facade without resolving its roof usually causes fake overhangs, giant empty lofts and arbitrary ornamentation.
 
 ## Choose roof by function and context

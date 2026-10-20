@@ -60,7 +60,7 @@ from all sides and refine before calling it complete.
 
 Use Russian, English, or the project's language. The skill follows the user's communication language.
 
-For ready-to-use professional palette, terrain and vegetation briefs, see [USE.md](USE.md). For the full history of skill changes, see [../CHANGELOG.md](../CHANGELOG.md).
+For ready-to-use professional building depth, palette, terrain and vegetation briefs, see [USE.md](USE.md). For the full history of skill changes, see [../CHANGELOG.md](../CHANGELOG.md).
 
 ## 5. Recognizing successful use
 

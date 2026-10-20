@@ -1,6 +1,6 @@
 # MineShelt
 
-**Version: 1.1.0** — профессиональные палитры, терраформинг, деревья и визуальный разбор строительных работ.
+**Version: 1.2.0** — объёмная архитектура самих построек, палитры, терраформинг, деревья и визуальный разбор строительных работ.
 
 **Architectural craft for AI agents building in Minecraft.**  
 **MineShelt — навык ИИ-архитектора и профессионального Minecraft-билдера.**
@@ -15,6 +15,7 @@ MineShelt is an [Agent Skill](https://agentskills.io/specification), not a proce
 - **Проектировать авторские деревья и посадки:** стволы, ветви, кроны, корни, подлесок и природные группы.
 - Изучать изображения работ других строителей, выделять архитектурные принципы и адаптировать их, сохраняя атрибуцию.
 - Мыслить силуэтом и архитектурной массой, а не начинать с хаотичного декора.
+- **Проектировать реальный архитектурный рельеф здания:** фасады в нескольких плоскостях, утопленные окна и двери, эркеры, колонны, галереи, арки, карнизы, свесы и настоящие опоры. Проверять постройку сбоку, сзади, по диагонали и снизу; не пытаться исправлять плоские стены только декоративными люками.
 - Подбирать взаимосвязанные палитры материалов и осмысленно распределять износ.
 - Проектировать крыши, фасады, фундамент, входы, окна, интерьеры, окружение.
 - Создавать асимметрию и живые детали **по архитектурным причинам**, а не случайным шумом.
@@ -66,10 +67,11 @@ Copy-Item -Recurse -Force C:\path\to\MineShelt\mineshelt .agents\skills\mineshel
 
 - [mineshelt/SKILL.md](mineshelt/SKILL.md) — основной контракт, процесс и правила действий агента.
 - [mineshelt/references/](mineshelt/references/) — архитектура, пропорции, палитры, интерьеры, терраформинг, деревья, визуальные референсы, интеграция в Minecraft и ревизия.
+- [mineshelt/references/architectural-depth-and-relief.md](mineshelt/references/architectural-depth-and-relief.md) — реальная трёхмерная архитектура построек: объём, выступы, углубления и опоры.
 - [mineshelt/references/block-palette-workshop.md](mineshelt/references/block-palette-workshop.md) — палитры, пробы блоков, градиенты и борьба с визуальным шумом.
 - [mineshelt/references/terrain-sculpting-masterclass.md](mineshelt/references/terrain-sculpting-masterclass.md) — ручное проектирование рельефа, скал и водоёмов.
 - [mineshelt/references/reference-study-and-image-analysis.md](mineshelt/references/reference-study-and-image-analysis.md) — подбор визуальных источников и указание авторства.
-- [mineshelt/examples/](mineshelt/examples/) — разборы кузницы, гавани со скалой и исправления неудачной палитры, **не шаблоны для копирования**.
+- [mineshelt/examples/](mineshelt/examples/) — разборы кузницы, гавани со скалой, исправления палитры и превращения плоской мастерской в объёмное здание, **не шаблоны для копирования**.
 - [tests/scenarios.md](tests/scenarios.md) — набор оценочных сценариев, включая отрицательные.
 - [AGENTS.md](AGENTS.md) — правила поддержки проекта.
 - [tests/review-sheet.md](tests/review-sheet.md) — форма оценки результата по реальным игровым изображениям.

@@ -2,6 +2,8 @@
 
 A Minecraft building is also a traversable play space. A beautiful facade does not excuse an inaccessible loft, fake staircase, clipped bed, unlit route or invisible gameplay affordance.
 
+Before adding deep architectural reveals, balconies, protruding piers, eaves and porticos, reconcile exterior relief with clear usable interior depth and real door/stair/collision space. See [architectural-depth-and-relief.md](architectural-depth-and-relief.md).
+
 ## The occupancy program
 
 Before the build, name occupants, use zones and expected actions:

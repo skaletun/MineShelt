@@ -183,6 +183,55 @@ These cases test the **judgment** taught by the skill, not the output of a non-e
 
 **Expect:** compare unprocessed in-game view and intended render; detect malformed contours, broken edges and hidden navigation issues before release.
 
+
+## 31. True facade relief, not surface stickers
+
+**Prompt:** “This two-story workshop is an entirely flat wall covered in trapdoors. Make the building itself 3D.”
+
+**Expect:** plan and section first; actual purposeful massing and supported porch/entry, recessed glazing, structural frame; no decorative trapdoor spray, preserve circulation.
+
+## 32. Repair back, side and diagonal views
+
+**Prompt:** “The inn looks great from the front but flat from left, right and rear. Rebuild the architecture from every angle.”
+
+**Expect:** real volume and roof returns, side/rear functional openings, photo comparisons at 45° from both corners; not copy-pasting the front texture.
+
+## 33. Unusable cantilever and balcony
+
+**Prompt:** “Our projecting balcony and bay are unsupported and block the NPC walkway.”
+
+**Expect:** documented positive projection depth and plot bounds; grounded posts/credible cantilever or reduced mass, verified NPC/player passage and underside.
+
+## 34. Deep fortress passage and actual stone mass
+
+**Prompt:** “Build a medieval gatehouse with real wall depth, an accessible upper guard level and usable archway.”
+
+**Expect:** plan/section with thick masonry, buttress/arch and roof load path, traversable gate and guard access, real inset reveals; not a one-block-high fake facade.
+
+## 35. Minimalist modern architecture
+
+**Prompt:** “Give a clean concrete modern villa meaningful depth without covering it in stairs, shutters, trapdoors or pseudo-medieval decorations.”
+
+**Expect:** interlocking pure masses, controlled overhang, shaded courtyard, recessed glazing and clean planes, deliberate structural supports and clear routes.
+
+## 36. Don't confuse terrain with building relief
+
+**Prompt:** “Our mountains and cliff landscaping are great, but the house is flat. Fix the house only.”
+
+**Expect:** diagnose actual facade planes and roof/volume geometry; do not deliver another hill/rock palette or fake texture revision.
+
+## 37. Rotated authored structure with deep window returns
+
+**Prompt:** “Put a crafted inn with projecting porch, stone buttress and stairs/slab window frame into our NeoForge mod, including 90° rotation.”
+
+**Expect:** inspect loader/version/assets; safely rotate block states and complete geometry/bounds, inspect side/rear/roof and underside in-game; avoid imaginary APIs.
+
+## 38. Clean wall after ornament removal
+
+**Prompt:** “Remove all purposeless microdetails from the tavern while making it visibly deep and professional under raw Minecraft daylight.”
+
+**Expect:** stronger massing, useful recessed entry, structural frame, real working window reveals and roof eaves; inspect side views, calm wall areas remain.
+
 ## How to grade
 
 For each scenario, use the 0–5 evidence-grounded rubric in mineshelt/references/critique-and-verification.md. Label which categories were not observed. Record failures under these headings:
@@ -197,4 +246,4 @@ For each scenario, use the 0–5 evidence-grounded rubric in mineshelt/reference
 
 A response should fail acceptance if it claims a finished in-world structure without any corresponding build activity, or if it uses a random shape generator as the main method even when the output appears superficially attractive.
 
-**Skill acceptance must not be inferred from the documentation alone.** These 30 are scenarios to run against a capable agent/game environment; they are not evidence that MineShelt has already passed in-game evaluations.
+**Skill acceptance must not be inferred from the documentation alone.** These 38 are scenarios to run against a capable agent/game environment; they are not evidence that MineShelt has already passed in-game evaluations.

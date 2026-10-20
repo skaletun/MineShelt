@@ -23,6 +23,9 @@ Use this sheet **per completed commission** after applying [critique-and-verific
 | Mass and cliff/terrain silhouette | | | |
 | Hero view of site + building | | | |
 | Front elevation | | | |
+| Architectural wall/roof cross-section with true relief depth | | | |
+| Both 45° views showing projected/recessed geometry | | | |
+| Underside of roof, porch, balcony and support | | | |
 | Rear elevation | | | |
 | Left/right elevations | | | |
 | Roof and terrain aerial | | | |
@@ -41,6 +44,10 @@ Use 0 (unacceptable) through 5 (expert) for each area below. If unavailable, mar
 | --- | --- | --- | --- |
 | Whole scene identity and hero hierarchy | | | |
 | Landmark/building silhouette | | | |
+| Real primary/secondary building volumes | | | |
+| Genuine facade recesses, projections and section depth | | | |
+| Rear and side architectural completion | | | |
+| Roof/porch underside and load-bearing support | | | |
 | Structural / roof coherence | | | |
 | Block palette role clarity | | | |
 | Gradient direction / restrained texturing | | | |

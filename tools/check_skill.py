@@ -85,6 +85,7 @@ def check_curriculum(errors: list[str]) -> None:
         return
     body = SKILL.read_text(encoding="utf-8")
     required = (
+        "references/architectural-depth-and-relief.md",
         "references/block-palette-workshop.md",
         "references/terrain-sculpting-masterclass.md",
         "references/vegetation-and-custom-trees.md",
@@ -104,8 +105,8 @@ def check_curriculum(errors: list[str]) -> None:
         count = len(re.findall(
             r"^##\s+\d+\.", scenarios.read_text(encoding="utf-8"), re.MULTILINE
         ))
-        if count < 30:
-            errors.append(f"Only {count} behavioral scenarios, expected at least 30")
+        if count < 38:
+            errors.append(f"Only {count} behavioral scenarios, expected at least 38")
 
     review = ROOT / "tests" / "review-sheet.md"
     if not review.is_file():

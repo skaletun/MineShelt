@@ -23,6 +23,7 @@ For each source image, fill in a compact observation sheet:
 - **View**: low eye level, aerial, orthographic, wide cinematic;
 - **Main silhouette**: height/width impression, primary axis, distinct mass hierarchy;
 - **Roof**: pitch, ridge direction, junctions, eaves, support;
+- **Building depth**: wall datum vs projecting and recessed volume, real window reveals, support/underside, side/rear continuations; what cannot be seen from the screenshot;
 - **Material palette**: broad *visual* warm/cool/value zones; block IDs only if positively known;
 - **Gradients**: direction and reason; focal vs background;
 - **Terrain**: how cut, fill, rock strata, river and planting behave;
@@ -54,6 +55,8 @@ Open the original linked pages to study credited images. **No third-party image 
 
 | Area | Author/source | Why study it |
 | --- | --- | --- |
+| Building depth | [Mojang, Make Your Houses Better](https://www.minecraft.net/en-us/article/make-your-houses-better) | official guide to recesses, eaves and grounded detail |
+| Building depth | [legokid222, Depth in Building! (Minecraft Forum)](https://www.minecraftforum.net/forums/minecraft-java-edition/creative-mode/369294-depth-in-building-a-simple-way-to-improve-all) | examples of layered wall depth, not a forced universal recipe |
 | General terraforming | [Mojang, Tips for Landscaping and Terraforming](https://www.minecraft.net/en-us/article/tutorial--tips-for-landscaping-and-terraforming) | route flow, natural path borders, layered terrain and riverbanks |
 | Artistic landform | [Mojang, Terraforming in Minecraft](https://www.minecraft.net/en-us/article/terraforming-minecraft) | large form, silhouettes, deliberate visual exaggeration, terrain palettes |
 | Landscape craft | [BlueNerd, 15 terraforming and landscaping tips](https://www.youtube.com/watch?v=e9U95cuV7_g) | cliffs, rivers, mountain planning; tutorial/video |

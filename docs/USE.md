@@ -29,7 +29,9 @@ test sample walls and material gradients in the target Minecraft version, and
 reject noisy block mixing. Sculpt the riverbanks, paths and slope transitions
 with deliberate geology and erosion. Hand-design the trees and foliage.
 
-Work in reviewable stages: massing, terrain profile, foundation, roof,
+Work in reviewable stages: massing, terrain profile, foundation,
+**building's real 3D architectural relief** (inset openings, projecting bays,
+structural frame, eave and balcony underside, 45-degree/rear checks), roof,
 materials/gradients, interiors, planted environment and final visual review.
 Inspect front, rear, both sides, aerial and player-eye views, plus night if
 relevant. Correct visually weak parts instead of hiding them in decoration.
@@ -37,6 +39,21 @@ relevant. Correct visually weak parts instead of hiding them in decoration.
 Do not create a structure generator. Do not overwrite protected world areas.
 Confirm what was truly built, tested and visually inspected, with coordinates,
 files, screenshots and a list of unverified items.
+~~~
+
+## A real architectural depth commission
+
+~~~text
+Use MineShelt to fix the building itself, not the terrain. The current
+Minecraft workshop has flat 2D-looking facades. Inspect the real plan,
+interior and plot boundaries first. Draw the front and side elevations and
+wall/roof section. Create purposeful secondary building volumes, physically
+recessed windows and entrance, projecting structural frame, supported
+porch/bay, readable cornice and completed roof underside. Preserve walkways
+and indoor usability. Reject arbitrary trapdoor wallpaper and forced layer
+counts. Inspect front, rear, both 45-degree corners, roof, underside and
+interior in neutral daylight, then fix the weakest view. Do not use a
+procedural building generator or claim you've built/tested things you haven't.
 ~~~
 
 ## A block palette-only commission

@@ -12,7 +12,7 @@ A practiced builder switches constantly between **seeing, imagining, placing, st
 2. **Concept studio**: purpose, historical construction story, silhouette and one focal point.
 3. **Palette studio**: art-directed material swatches, lighting, surface transitions.
 4. **Terrain studio**: authored slopes, cliffs, watercourses, paths and ground contact.
-5. **Structure studio**: mass, foundation, roof junction, window/door rhythms.
+5. **Structure studio**: mass, foundation, roof junction, window/door rhythms and **real architectural relief of the building itself** (not the terrain): deep openings, wall section, structural forward plane, bay windows, galleries, soffits. Read [architectural-depth-and-relief.md](architectural-depth-and-relief.md).
 6. **Life studio**: routes, rooms, furniture, utilities, planting and wear.
 7. **Critique studio**: compare in-world screens, identify root cause and make a real repair.
 

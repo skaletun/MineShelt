@@ -11,6 +11,7 @@ For any substantive structure, record:
 - local origin, +X/+Z/+Y orientation and compass translation;
 - external dimensions, maximum height, ground datum and safety margin;
 - terrain edits and protected boundaries;
+- real building relief: wall datum, projection/recess depth, eave/balcony bounds, vertical section and interior clearance;
 - source of block IDs, required state orientations, substitutes if specifically allowed;
 - placement/build mode and test method;
 - what was executed and what remains merely designed.
@@ -25,6 +26,7 @@ At least:
 3. Program list (rooms, levels, circulation, outside work areas).
 4. Primary, secondary and focal masses.
 5. Main roof profile and intersection rule.
+5a. Authored building depth map: quiet surfaces, real projecting/recessed elements, structural frame, eave support/underside, plan and section changes.
 6. Role-based material palette.
 7. Main elevation/section decisions.
 8. Lighting and detail concentrations.

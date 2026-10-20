@@ -1,5 +1,7 @@
 # Form and proportion — the long-distance test
 
+For the **relief of buildings themselves** (separate from terrain relief), consult [architectural-depth-and-relief.md](architectural-depth-and-relief.md): wall sections, true volumes, openings, projecting frames and multi-angle proof.
+
 The building must communicate its role before the viewer recognizes individual blocks. Analyze it as silhouettes, masses, visible load paths and rhythm. This reference is about making **specific architectural choices**, not enforcing a universal ratio.
 
 ## Start with the hero view
